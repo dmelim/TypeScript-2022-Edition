@@ -88,3 +88,4 @@ const person6 = {
 };
 
 // The last type is ANY, it can be used for anything. In TS it needs to be avoided. Because it makes the TS advantages useless.
+//
