@@ -26,11 +26,15 @@ We can use the private keyword in properties and methods. This will signal the T
 
 > `private property: type` or `private method() {}`
 
-# Creating a class
+Shorthand initialization, is a way to initialize the class faster. See the video for a better explanation.
 
-> `Code`
+# Readonly access modifiers
 
-# Creating a class
+> `readonly property: type`
+
+We can only read the property,not change it.
+
+# Inheritance
 
 > `Code`
 
