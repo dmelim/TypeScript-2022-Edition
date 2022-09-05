@@ -36,12 +36,16 @@ We can only read the property,not change it.
 
 # Inheritance
 
-> `Code`
+> `class New extends Old {}`
 
-# Creating a class
+The new class inherits everything from the old class.
 
-> `Code`
+> `super()`
 
-# Creating a class
+We can use this func to reference the constuctor of the old class.
 
-> `Code`
+# Getters and Setters
+
+> `get getterExample() {any normal code, works like a func, needs to return a value}`
+
+> `set setterExample(needs an argument, value we want to set) {any normal code, works like a func, needs to return a value}`
