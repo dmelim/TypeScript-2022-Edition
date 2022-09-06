@@ -2,7 +2,7 @@
 
 > `interface Person{name:string; age:number;} method(phrase:string):void;`
 
-An interface doesen't define values, only types. But it can have methods.
+An interface doesn't define values, only types. But it can have methods.
 
 We can use it like this:
 
@@ -22,34 +22,34 @@ It can be used as a way to make classes follow a certain structure. By using the
 
 We need to implement everything specified by the interface but we can add new methods or properties.
 
-# Title
+# ReadOnly
 
-> `Code `
+> `readonly property: type `
 
-# Title
+# Extending Interfaces
 
-> `Code `
+> `interface NewInterface extends OldInterface {}`
 
-# Title
+We can extend interfaces into other interfaces. We can even inherit from multiple interfaces. Contrary to classes.
 
-> `Code `
+# Interfaces as Function Types.
 
-# Title
+We can create interfaces as types for functions. Ex:
 
-> `Code `
+With types:
 
-# Title
+> `type Func = (a: type, b:type) => return type`
 
-> `Code `
+With interfaces:
 
-# Title
+> `interface Func {(a: type, b: type): return type } `
 
-> `Code `
+# Optional Parameters and Properties
 
-# Title
+We can mark properties and methods as optional, with a question mark, for example:
 
-> `Code `
+> `property?: string `
 
-# Title
+# Interface compilation
 
-> `Code `
+Interfaces don't compile into nothing. There is no "translation" in JS. Only used during TS dev.
