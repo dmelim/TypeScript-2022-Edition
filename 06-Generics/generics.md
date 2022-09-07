@@ -41,13 +41,21 @@ This is optional and very flexible.
 
 With this constraint, we can use in the specific case of keys in objects.
 
-# Title
+# Generic Classes
 
-> `Code`
+> `class Storage <T> { private data: T[] = []; addItem(item){this.data.push(item)}}`
 
-# Title
+> `const textStorage = new DataStorage<string>()`
 
-> `Code`
+In this example, we create a Storage class. With a generic that is an array. This keeps our class generic, we can store text data, as in the example, but if we want to store numbers we only need to change the generic type to a number.
+
+# Utility Types
+
+> `const names: Readonly<string[]> = ['Max', 'Anna']`
+
+We can use the Readonly keyword with generics to lock the structure.
+
+There are different [Utility Types](Utility Types).
 
 # Title
 
