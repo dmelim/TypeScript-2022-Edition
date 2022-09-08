@@ -56,7 +56,3 @@ In this example, we create a Storage class. With a generic that is an array. Thi
 We can use the Readonly keyword with generics to lock the structure.
 
 There are different [Utility Types](Utility Types).
-
-# Title
-
-> `Code`
